@@ -18,7 +18,7 @@ A RESTful API built with Python and Flask for managing student tasks. Supports f
 ## Project Structure
 - `main.py` — main server file with all API endpoints
 - `database.py` — database connection and initialisation
-- `tasks.db` — SQLite database (auto-created on run)
+- `tasks.db` — generated locally when the application runs and excluded from Git
 
 ## How to Run
 
