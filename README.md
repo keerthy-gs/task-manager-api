@@ -21,7 +21,31 @@ A RESTful API built with Python and Flask for managing student tasks. Supports f
 - `tasks.db` — SQLite database (auto-created on run)
 
 ## How to Run
-Server runs at: http://127.0.0.1:5000
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/keerthy-gs/task-manager-api.git
+cd task-manager-api
+```
+
+### 2. Install the Required Packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Start the Flask Server
+
+```bash
+python main.py
+```
+
+The API will run at:
+
+```text
+http://127.0.0.1:5000
+```
 
 ## API Endpoints
 
